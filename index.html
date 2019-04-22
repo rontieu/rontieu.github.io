@@ -1,181 +1,139 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ron Tieu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-  <head>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="rontieu.com/pdf/resume.pdf">Resume</a></li>
+				</ul>
+			</nav>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Ron Tieu</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
-      <i class="fas fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-			<a class="js-scroll-trigger" href="#page-top">Ron Tieu</a>
-        </li>
-        <li class="sidebar-nav-item">
-			<a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="sidebar-nav-item">
-			<a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="sidebar-nav-item">
-			<a class="js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-		<li class="sidebar-nav-item">
-			<a target="_blank" href="/pdf/resume.pdf">Resume</a>
-        </li>
-      </ul>
-    </nav>
-
-
-    <!-- Header -->
-    <section class="content-section bg-primary text-white" id="home">
-	<div class="container text-center text-black">
-		<img class="rounded-circle" src="img/me.jpg" alt="Self Pic">
-		<h1>Ron Tieu</h1>
-		<h2>Computer Engineering Student</h2>
-		</br></br></br>
-	</div>
-		<div class="overlay"></div>
-    </section>
-
-    <!-- About -->
-	<section class="content-section bg-lite text-black" id="about">
-		<div class="container text-center">
-			<div class="content-section-heading text-center">
-				<h2 class="mb-5">ABOUT</h2>
-			</div>
-			<div class="row">
-				<div class="col-lg-10 mx-auto">
-					<p class="lead mb-5">Hi, I'm Ron. I am an undergraduate student at Ryerson University, currently majoring in Computer Engineering. I enjoy programming in Java and Python, as well as working with Android applications.  I also enjoy listening to music, reading novels, and playing games.</p>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/profilepic.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Ron Tieu</strong>.</h1>
+							</header>
+							<p>I'm a Computer Engineer who loves to code and work with software.</p>
+							<a href="#about" class="button large scrolly">Learn More</a>
+						</div>
+					</div>
 				</div>
-				<div class="container text-center">
-					<a target="_blank" href="/pdf/resume.pdf" class="btn btn-xl btn-primary">View Resume</a>
+			</article>
+
+		<!-- Work -->
+			<article id="about" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>ABOUT ME</h2>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-graduation-cap"></span>
+								<h3>Education</h3>
+								<p>I graduated from Ryerson University with a Bachelor's in Computer Engineering.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-code"></span>
+								<h3>Programming</h3>
+								<p>I enjoy programming in Java, C++, Python, working with Android Applications, SQL Databases,</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-book"></span>
+								<h3>Hobbies</h3>
+								<p>I enjoy reading different types of novels as well as learning new languages.</p>
+							</section>
+						</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="projects" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>PROJECTS</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/rontieu/Multicast">Multicast</a></h3>
+								<p>Multicasting application using PIM-DM & Djikstra's Algorithm</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/rontieu/Bank-System">Bank System</a></h3>
+								<p>Java implementation of Banking System</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="#">P2P File Transfer</a></h3>
+								<p>File transfer between clients and server using UDP & TCP</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/rontieu/MCB1700-Media-Center">Media Center</a></h3>
+								<p>Audio streaming & snake on ARM Cortex-M3 Microprocessor</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/rontieu/Home-Page">Home Page</a></h3>
+								<p>Lightweight Homepage in HTML & CSS</p>
+							</article>
+						</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>CONTACT</h2>
+					</header>
+							<ul class="social">
+								<li><a href="mailto:rontieu@hotmail.com" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/rontieu" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/rontieu/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Ron Tieu 2019 </li>
+						</ul>
+					</footer>
 				</div>
-			</div>
-		</div>
-    </section>
+			</article>
 
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    <!-- Portfolio -->
-    <section class="content-section bg-primary " id="portfolio">
-      <div class="container">
-        <div class="content-section-heading text-center text-white">
-			<h2 class="mb-5">PORTFOLIO</h2>
-        </div>
-        <div class="row no-gutters">
-		
-			<div class="col-lg-6">
-				<a class="portfolio-item" href="https://github.com/rontieu/Tic_Tac_Toe">
-					<img class="img-fluid" src="img/tictactoe.png" alt="">
-				</a>
-			</div>
-		  
-			<div class="col-lg-6">
-				<a class="portfolio-item" href="https://github.com/rontieu/Home-Page">
-					<img class="img-fluid" src="img/homepage.png" alt="">
-				</a>
-			</div>
-		  
-			<div class="col-lg-6">
-				<a class="portfolio-item" href="https://github.com/rontieu/rontieu.github.io">
-					<img class="img-fluid" src="img/website.png" alt="">
-				</a>
-			</div>
-			
-			<div class="col-lg-6">
-				<a class="portfolio-item" href="https://github.com/rontieu/Bank-System">
-					<img class="img-fluid" src="img/bank.png" alt="">
-				</a>
-			</div>
-			
-			<div class="col-lg-6">
-				<a class="portfolio-item" href="https://github.com/rontieu/MCB1700-Media-Center">
-					<img class="img-fluid" src="img/mediacenter.png" alt="">
-				</a>
-			</div>
-			
-        </div>
-      </div>
-    </section>
-
-	
-	<!-- Contact -->
-    <section class="contact-section bg-secondary text-white text-center" id="contact">
-	<footer class="footer text-center">
-		<div class="content-section-heading">
-			<h2 class>CONTACT</h2>
-        </div>
-
-		</br></br>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-				<a class="social-link rounded-circle text-white mr-2" href="mailto:rontieu@hotmail.com">
-					<i class="icon-envelope"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a class="social-link rounded-circle text-white mr-2" href="https://github.com/rontieu">
-					<i class="icon-social-github"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/rontieu/">
-					<i class="icon-social-linkedin"></i>
-				</a>
-			</li>
-	
-        </ul>
-		</footer>
-	</section>
-
-	<section class="copyright-section bg-dark text-white" id="copyright">
-      <div class="container">
-        <h4 class="mb-0 pb-2">
-			</br>
-			<p class="text-white small text-center"> &copy; Ron Tieu 2018</p>
-        </h4>
-      </div>
-      <div class="overlay"></div>
-    </section>
-		
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
-
-  </body>
-
+	</body>
 </html>
