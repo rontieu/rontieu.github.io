@@ -115,7 +115,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #EA8A95 !important;
 		}
 
 		a img {
@@ -1686,7 +1686,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #ec93ca; 
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1697,7 +1697,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #e467b4;
 			color: #fff !important;
 		}
 
@@ -1706,7 +1706,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #e467b4;
 			top: 1px;
 		}
 
@@ -1724,7 +1724,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #444;
+			background-color: #e467b4;
 			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
@@ -1733,7 +1733,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #4f4f4f;
+				background-color: #e467b4;
 				color: #fff !important;
 			}
 
@@ -1742,7 +1742,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #3f3f3f;
+				background-color: #e467b4;
 			}
 
 /* List */
@@ -1832,19 +1832,23 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin {
-					background-color: #006599;
+					background-color: #EA8A95;
+				}
+
+				ul.social li a.fa-envelope {
+					background-color: #EA8A95;
 				}
 
 				ul.social li a.fa-tumblr {
 					background-color: #51718A;
 				}
-
+				
 				ul.social li a.fa-google-plus {
 					background-color: #DA2713;
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #EA8A95;
 				}
 
 				ul.social li a.fa-rss {
@@ -2126,7 +2130,7 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		color: #666;
+		color: #fff;
 		font-size: 1em;
 		line-height: 1em;
 		list-style: none;
@@ -2158,7 +2162,7 @@ input, select, textarea {
 		}
 
 			#copyright a:hover {
-				color: #777;
+				color: #fff;
 			}
 
 /* Large */
