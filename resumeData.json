@@ -49,6 +49,12 @@
         "category":"Games, gallery & music implemented onto an microcontroller",
         "image":"portfolio_mediacenter.jpg",
         "url":"https://github.com/rontieu/MCB1700-Media-Center"
+      },
+      {
+        "title":"Maplestory Calculator",
+        "category":"Tool used to calculate Arcane Force in Maplestory",
+        "image":"portfolio_af_calculator.jpg",
+        "url":"https://arcane-symbol-calculator.herokuapp.com/"
       }
     ]
   }
