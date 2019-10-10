@@ -24,6 +24,7 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
+            <li><a className="smoothscroll" href="#resume">Education</a></li>
             <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="pdf/resume.pdf">Resume</a></li>
          </ul>
@@ -32,10 +33,10 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 style={{fontSize:"3.5"+"em"}}>{greeting}</h1>
-            <h1 className="responsive-headline">{name}.</h1>
+            <h1>{greeting}</h1>
+            <h4 className="responsive-headline">{name}.</h4>
             <h2 style={{color:'#fff'}}> I am&nbsp;
-              <Typed 
+            <Typed 
                 strings={[
                   'a Web Developer.',
                   'a Computer Engineer.',
