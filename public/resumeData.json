@@ -1,8 +1,9 @@
 {
   "main": {
+    "greeting":"Hi! I'm",
     "name":"Ron Tieu",
     "image":"profilepic.jpg",
-    "bio":"I'm a technology fan who loves to code and work with software. I enjoy programming in Javascript, Java, C++, Python, working with Android Applications. In my spare time, I also enjoy reading novels, as well as learning new languages.",
+    "bio":"I'm a technology nerd who loves to code and work with software. I enjoy programming in Javascript, Java, C++, Python, working with Android Applications. In my spare time, I also enjoy reading novels, as well as learning new languages.",
     "email": "ron@rontieu.com",
     "phone": "647-889-2843",
     "address":{
@@ -10,22 +11,17 @@
       "country":"Canada"
     },
     "website": "http://www.rontieu.com",
-    "resumedownload":"pdf/resume.pdf",
+    "resumedownload":"./pdf/resume.pdf",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.comin/rontieu",
-        "className":"fab fa-linkedin"
+        "url":"https://www.linkedin.com/in/rontieu",
+        "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"https://www.github.com/rontieu",
-        "className":"fab fa-github"
-      },
-      {
-        "name":"discord",
-        "url":"mailto:ron@rontieu.com",
-        "className":"fab fa-steam"
+        "url":"http://github.com/rontieu",
+        "className":"fa fa-github"
       },
       {
         "name":"mail",
@@ -37,8 +33,8 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Resume",
-        "category":"My personal resume website created using create-react-app",
+        "title":"Personal Website",
+        "category":"My personal resume website created using React",
         "image":"portfolio_resume.jpg",
         "url":"http://www.rontieu.com"
       },
@@ -50,8 +46,8 @@
       },
       {
         "title":"Media Center",
-        "category":"Gallery, games & audio streaming implemented on ARM Cortex-M3",
-        "image":"portfolio_messenger.jpg",
+        "category":"Games, gallery & music implemented onto an microcontroller",
+        "image":"portfolio_mediacenter.jpg",
         "url":"https://github.com/rontieu/MCB1700-Media-Center"
       }
     ]

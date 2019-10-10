@@ -2,18 +2,24 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
+
+    if(this.props.data){
+      var networks= this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      })
+    }
+
     return (
       <footer>
-      <div className="row">
+
+     <div className="row">
         <div className="twelve columns">
-            <ul className="social-links">
-              <li><a style={{color:"#505050"}} href="https://www.linkedin.com/in/rontieu" className = "fa fa-linkedin"></a></li>
-              <li><a style={{color:"#505050"}} href="https://www.github.com/rontieu" className = "fa fa-github"></a></li>
-              <li><a style={{color:"#505050"}} href="mailto:ron@rontieu.com" className = "fa fa-envelope-o"></a></li>
-            </ul>
+           <ul className="social-links">
+              {networks}
+           </ul>
 
            <ul className="copyright">
-              <li style={{color:"#505050"}}>&copy; Copyright 2019 Ron Tieu</li>
+              <li>&copy; Copyright 2019 Ron Tieu</li>
            </ul>
 
         </div>

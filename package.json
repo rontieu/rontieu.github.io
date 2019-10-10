@@ -5,10 +5,10 @@
   "homepage": "https://rontieu.github.io/",
   "dependencies": {
     "jquery": "^3.2.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
-    "react-scripts": "3.2.0",
+    "react-scripts": "1.0.17",
     "react-typed": "^1.2.0"
   },
   "scripts": {
@@ -17,19 +17,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+	 "deploy": "gh-pages -b master -d build"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
