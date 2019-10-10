@@ -35,20 +35,26 @@
       {
         "title":"Personal Website",
         "category":"My personal resume website created using React",
-        "image":"portfolio_resume.jpg",
+        "image":"portfolio-resume.jpg",
         "url":"http://www.rontieu.com"
       },
       {
         "title":"RCCH Messenger",
         "category":"Chatroom that allows users to sign in and chat with each other",
-        "image":"portfolio_messenger.jpg",
+        "image":"portfolio-messenger.jpg",
         "url":"https://github.com/rontieu/RCCH-Messenger"
       },
       {
         "title":"Media Center",
         "category":"Games, gallery & music implemented onto an microcontroller",
-        "image":"portfolio_mediacenter.jpg",
+        "image":"portfolio-mediacenter.jpg",
         "url":"https://github.com/rontieu/MCB1700-Media-Center"
+      },
+      {
+        "title":"Maplestory Calculator",
+        "category":"Tool used to calculate Arcane Force in Maplestory",
+        "image":"portfolio-afcalculator.jpg",
+        "url":"https://arcane-symbol-calculator.herokuapp.com/"
       }
     ]
   }

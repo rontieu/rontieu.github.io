@@ -39,9 +39,9 @@ class Header extends Component {
                 strings={[
                   'a Web Developer.',
                   'a Computer Engineer.',
-                  'an Android Lover.',
+                  'an Android Enthusiast.',
                   'an E-Sports Fan.',
-                  'a Skiiing Enthusiast.'
+                  'a Skier.'
                 ]}
                 typeSpeed={50}
                 backSpeed={30}
