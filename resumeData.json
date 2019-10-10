@@ -30,6 +30,15 @@
       }
     ]
   },
+  "resume":{
+    "education":[
+      {
+        "school":"Ryerson University",
+        "degree":"Bachelor of Engineering (Computer Engineering)",
+        "graduated":"04/2019"
+      }
+    ]
+  },
   "portfolio":{
     "projects": [
       {
