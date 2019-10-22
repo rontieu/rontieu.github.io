@@ -8,6 +8,8 @@ class Header extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var greeting = this.props.data.greeting;
+      var intro = this.props.data.intro;
+      var labels = this.props.data.labels;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -34,15 +36,15 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1>{greeting}</h1>
-            <h4 className="responsive-headline">{name}.</h4>
-            <h2 style={{color:'#fff'}}> I am&nbsp;
+            <h4 className="responsive-headline">{name}</h4>
+            <h2 style={{color:'#fff'}}>{intro}
             <Typed 
                 strings={[
-                  'a Web Developer.',
-                  'a Computer Engineer.',
-                  'an Android Enthusiast.',
-                  'an E-Sports Fan.',
-                  'a Skier.'
+                "a Web Developer.",
+                "a Computer Engineer.",
+                "an Android Enthusiast.",
+                "a Skier.",
+                "an E-Sports Fan."
                 ]}
                 typeSpeed={50}
                 backSpeed={30}
