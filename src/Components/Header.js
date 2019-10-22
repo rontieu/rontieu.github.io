@@ -9,7 +9,6 @@ class Header extends Component {
       var name = this.props.data.name;
       var greeting = this.props.data.greeting;
       var intro = this.props.data.intro;
-      var labels = this.props.data.labels;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
