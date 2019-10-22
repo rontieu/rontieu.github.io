@@ -1,7 +1,8 @@
 {
   "main": {
     "greeting":"Hi! I'm",
-    "name":"Ron Tieu",
+    "name":"Ron Tieu.",
+    "intro":"I am ",
     "image":"profilepic.jpg",
     "bio":"I'm a technology nerd who loves to code and work with software. I enjoy programming in Javascript, Java, C++, Python, working with Android Applications. In my spare time, I also enjoy reading novels, as well as learning new languages.",
     "email": "ron@rontieu.com",
