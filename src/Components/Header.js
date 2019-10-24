@@ -34,9 +34,9 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1>{greeting}</h1>
-            <h4 className="responsive-headline">{name}</h4>
-            <h2 style={{color:'#fff'}}>{intro}
+            <h2>{greeting}</h2>
+            <h1 className="responsive-headline">{name}</h1>
+            <h3>{intro}
             <Typed 
                 strings={[
                 "a Web Developer.",
@@ -50,7 +50,7 @@ class Header extends Component {
                 backDelay={1000}
                 loop
               />
-            </h2>
+            </h3>
             <hr />
             <ul className="social">
                {networks}
