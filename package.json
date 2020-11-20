@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://rontieu.github.io/",
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-ga": "^2.7.0",
